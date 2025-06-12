@@ -13,15 +13,22 @@ body {
 
 .site-header {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background: #f5f5f5;
   padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .logo img {
-  height: 75px;
+  height: 60px;
 }
 
 .nav-center ul {
@@ -29,7 +36,6 @@ body {
   gap: 15px;
   list-style: none;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .nav-center a {
@@ -150,10 +156,15 @@ footer {
     align-items: flex-start;
   }
 
-  .nav-center ul {
+  .header-left {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+  }
+
+  .nav-center ul {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .nav-right {
