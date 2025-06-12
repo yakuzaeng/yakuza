@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>首相官邸</title>
+</head>
+<body>
+
+<header>
+  <h1>第2次 安全保障会議</h1>
+  <nav>
+    <ul>
+      <li><a href="#">国家安全保障戦略</a></li>
+      <li><a href="#">防衛計画の大綱</a></li>
+      <li><a href="#">中期防衛力整備計画・防衛力整備計画</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<section>
+  <h2>最近の動き</h2>
+
+  <article>
+    <a href="https://example.com/article1">
+      <img src="https://example.com/image1.jpg" alt="首相と会談">
+      <p>首相、ポーランド首相と会談</p>
+    </a>
+  </article>
+
+  <article>
+    <a href="https://example.com/article2">
+      <img src="https://example.com/image2.jpg" alt="岸田総理と意見交換">
+      <p>岸田総理と経済関係団体との意見交換会</p>
+    </a>
+  </article>
+
+  <article>
+    <a href="https://example.com/article3">
+      <img src="https://example.com/image3.jpg" alt="日韓首脳会談">
+      <p>岸田総理のカナダ・韓国訪問の結果概要 大韓民国大統領との会談及び共同記者発表</p>
+    </a>
+  </article>
+
+  <article>
+    <a href="https://example.com/article4">
+      <img src="https://example.com/image4.jpg" alt="和歌山県の児童生徒と">
+      <p>「子供の未来を語る会」和歌山県の児童生徒との意見交換</p>
+    </a>
+  </article>
+
+  <article>
+    <a href="https://example.com/article5">
+      <img src="https://example.com/image5.jpg" alt="国民対話">
+      <p>国民対話推進会議（第５６５回）開催</p>
+    </a>
+  </article>
+
+  <article>
+    <a href="https://example.com/article6">
+      <img src="https://example.com/image6.jpg" alt="女性活躍について意見交換">
+      <p>女性の活躍促進に係る今後の取組に関する関係府省会議</p>
+    </a>
+  </article>
+</section>
+
+<section>
+  <h2>新着情報</h2>
+  <ul>
+    <li><strong>令和6年6月11日</strong> <a href="https://example.com/news1">第２次 安全保障会議の開催について</a></li>
+    <li><strong>令和6年6月11日</strong> <a href="https://example.com/news2">安全保障関連の報道発表資料</a></li>
+    <li><strong>令和6年6月10日</strong> <a href="https://example.com/news3">岸田総理大臣のカナダ訪問について</a></li>
+    <li><strong>令和6年6月10日</strong> <a href="https://example.com/news4">女性の活躍推進に向けた取組について</a></li>
+  </ul>
+  <a href="https://example.com/news-all">新着情報一覧</a>
+</section>
+
+<section>
+  <h2>首相官邸の紹介</h2>
+  <img src="https://example.com/kantei-building.jpg" alt="首相官邸外観">
+  <p>
+    首相官邸は、日本の内閣総理大臣が執務を行う場所であり、また重要な会議や会談も行われます。
+  </p>
+  <ul>
+    <li><a href="#">官邸・官房とは</a></li>
+    <li><a href="#">施設案内</a></li>
+    <li><a href="#">沿革</a></li>
+  </ul>
+</section>
+
+<section>
+  <h2>官邸SNS</h2>
+  <p>官邸の最新情報を発信しています。</p>
+  <ul>
+    <li><a href="https://www.youtube.com/">YouTube</a></li>
+    <li><a href="https://x.com/">X（旧Twitter）</a></li>
+    <li><a href="https://www.instagram.com/">Instagram</a></li>
+    <li><a href="https://www.facebook.com/">Facebook</a></li>
+  </ul>
+</section>
+
+</main>
+
+<footer>
+  <nav>
+    <ul>
+      <li><a href="#">個人情報保護方針</a></li>
+      <li><a href="#">このサイトについて</a></li>
+      <li><a href="#">アクセシビリティ方針</a></li>
+      <li><a href="#">リンク・著作権等について</a></li>
+      <li><a href="#">ご意見・ご感想</a></li>
+      <li><a href="#">サイトマップ</a></li>
+    </ul>
+  </nav>
+  <p>&copy; 首相官邸</p>
+</footer>
+
+</body>
+</html>
