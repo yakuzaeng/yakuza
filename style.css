@@ -5,15 +5,18 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   line-height: 1.6;
+  background-color: #fff;
+  color: #333;
 }
 
+/* Header */
 .site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #eee;
+  background: #f5f5f5;
   padding: 10px 20px;
 }
 
@@ -41,14 +44,18 @@ body {
 
 .nav-right input {
   padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 .menu-button {
   background: none;
   border: none;
   font-size: 20px;
+  cursor: pointer;
 }
 
+/* Main image with team name */
 .main-image {
   position: relative;
   width: 100%;
@@ -73,24 +80,26 @@ body {
   padding: 10px 20px;
 }
 
+/* Blog section */
 .blog-section {
   display: flex;
+  justify-content: center;
   gap: 20px;
   padding: 20px;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .blog-card {
-  flex: 1;
-  max-width: 300px;
   background: #f9f9f9;
-  padding: 15px;
   border: 1px solid #ddd;
+  padding: 15px;
+  width: 300px;
 }
 
+/* News section */
 .news-section {
-  padding: 20px;
   background: #fafafa;
+  padding: 20px;
 }
 
 .news-section h2 {
@@ -101,11 +110,17 @@ body {
   list-style: disc inside;
 }
 
+/* About team */
 .about-team {
   padding: 20px;
   background: #f0f0f0;
 }
 
+.about-team h2 {
+  margin-bottom: 10px;
+}
+
+/* SNS icons */
 .sns-links {
   text-align: center;
   padding: 20px;
@@ -118,9 +133,15 @@ body {
   text-decoration: none;
 }
 
+.sns-links a:hover {
+  color: #1da1f2;
+}
+
+/* Footer */
 footer {
   background: #222;
   color: #fff;
   text-align: center;
   padding: 15px 0;
+  font-size: 14px;
 }
