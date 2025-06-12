@@ -1,167 +1,32 @@
-/* ベーススタイル */
-* {
+/* Reset & base */
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
-  margin: 0;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  background-color: #fff;
   color: #333;
-  line-height: 1.6;
-}
-
-a {
-  color: #003366;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* ヘッダー */
-header {
-  background-color: #003366;
-  color: white;
-  padding: 1rem;
-}
-
-header h1 {
-  font-size: 1.5rem;
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic Pro", "Hiragino Sans", "Helvetica Neue",
+    -apple-system, "Lucida Grande", "メイリオ", Meiryo, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
   margin: 0;
-}
-
-header nav ul {
-  list-style: none;
   padding: 0;
-  margin-top: 0.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
 }
 
-header nav li {
-  font-size: 0.95rem;
-}
-
-/* メイン */
-main {
-  padding: 1rem;
-  max-width: 960px;
-  margin: auto;
-}
-
-section {
-  margin-bottom: 2rem;
-}
-
-section h2 {
-  font-size: 1.3rem;
-  border-left: 5px solid #003366;
-  padding-left: 0.5rem;
-  margin-bottom: 1rem;
-  color: #003366;
-}
-
-/* 記事カード */
-article {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 1rem;
-}
-
-article img {
-  width: 120px;
-  height: auto;
-  object-fit: cover;
-  border: 1px solid #ccc;
-}
-
-article p {
+ul, li {
+  list-style: none;
   margin: 0;
-  font-weight: bold;
-}
-
-/* 新着情報リスト */
-ul {
-  padding-left: 1rem;
-}
-
-ul li {
-  margin-bottom: 0.5rem;
-  font-size: 0.95rem;
-}
-
-ul li strong {
-  color: #666;
-  margin-right: 0.5rem;
-}
-
-/* 官邸紹介セクション */
-section img {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  margin-bottom: 0.5rem;
-}
-
-/* SNSリンク */
-section ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  padding-left: 0;
-  list-style: none;
-}
-
-/* フッター */
-footer {
-  background-color: #001d33;
-  color: white;
-  padding: 1.5rem;
-  font-size: 0.85rem;
-}
-
-footer nav ul {
-  list-style: none;
   padding: 0;
-  margin: 0 0 1rem 0;
+}
+
+/* Visual section */
+.top-main-attention__box ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-}
-
-footer p {
-  margin: 0;
-  text-align: center;
-}
-
-/* レスポンシブ対応 */
-@media (max-width: 768px) {
-  header nav ul {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  article {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  article img {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  section ul {
-    flex-direction: column;
-  }
-
-  main {
-    padding: 0.5rem;
-  }
+  margin: -12px 0 0 -15px;
 }
