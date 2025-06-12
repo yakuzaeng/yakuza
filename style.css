@@ -11,9 +11,9 @@ body {
   color: #333;
 }
 
-/* Header */
 .site-header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background: #f5f5f5;
@@ -26,8 +26,10 @@ body {
 
 .nav-center ul {
   display: flex;
-  gap: 20px;
+  gap: 15px;
   list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .nav-center a {
@@ -46,16 +48,16 @@ body {
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  width: 120px;
 }
 
 .menu-button {
   background: none;
   border: none;
-  font-size: 10px;
+  font-size: 20px;
   cursor: pointer;
 }
 
-/* Main image with team name */
 .main-image {
   position: relative;
   width: 100%;
@@ -80,7 +82,6 @@ body {
   padding: 10px 20px;
 }
 
-/* Blog section */
 .blog-section {
   display: flex;
   justify-content: center;
@@ -93,10 +94,10 @@ body {
   background: #f9f9f9;
   border: 1px solid #ddd;
   padding: 15px;
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
 }
 
-/* News section */
 .news-section {
   background: #fafafa;
   padding: 20px;
@@ -110,7 +111,6 @@ body {
   list-style: disc inside;
 }
 
-/* About team */
 .about-team {
   padding: 20px;
   background: #f0f0f0;
@@ -120,7 +120,6 @@ body {
   margin-bottom: 10px;
 }
 
-/* SNS icons */
 .sns-links {
   text-align: center;
   padding: 20px;
@@ -137,11 +136,43 @@ body {
   color: #1da1f2;
 }
 
-/* Footer */
 footer {
   background: #222;
   color: #fff;
   text-align: center;
   padding: 15px 0;
   font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-center ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .nav-right {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .nav-right input {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .main-image {
+    height: 200px;
+  }
+
+  .team-name {
+    font-size: 24px;
+    padding: 8px 12px;
+  }
 }
