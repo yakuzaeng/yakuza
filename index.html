@@ -2,66 +2,62 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8" />
-  <title>首相官邸風ページ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>チームホームページ</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-  <div id="fb-root" class="fb_reset"></div>
-
-  <script></script>
-  <noscript></noscript>
-
-  <!-- header -->
-  <header class="header js-header is-fixed is-row" role="banner">
+  <header class="site-header">
+    <div class="logo"><img src="logo.png" alt="ロゴ" /></div>
+    <nav class="nav-center">
+      <ul>
+        <li><a href="#">指針</a></li>
+        <li><a href="#">構成員</a></li>
+        <li><a href="#">Yeah Take Car</a></li>
+        <li><a href="#">活動記録</a></li>
+        <li><a href="#">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <div class="nav-right">
+      <input type="text" placeholder="検索..." />
+      <button class="menu-button"><i class="fas fa-bars"></i></button>
+    </div>
   </header>
-  <!-- /header -->
 
-  <main class="is-single is-top" role="main">
-    <div class="l-wrapper">
-      <div class="l-main">
-        <div class="top-main-visual has-attention">
-          <div class="top-main-visual__text"></div>
-          <div class="top-main-attention">
-            <div class="top-main-attention__box">
-              <ul></ul>
-            </div>
-          </div>
+  <section class="main-image">
+    <img src="main.jpg" alt="メイン画像" />
+    <div class="team-name">チーム名</div>
+  </section>
 
-          <img class="top-main-visual__bg pc-disp" src="https://i.imgur.com/crtHxI0.jpeg" alt="写真：日本国旗を背にして会見する石破首相">
-          <img class="top-main-visual__bg sp-disp" src="https://i.imgur.com/crtHxI0.jpeg" alt="写真：日本国旗を背にして会見する石破首相">
+  <section class="blog-section">
+    <div class="blog-card">ブログ記事 1</div>
+    <div class="blog-card">ブログ記事 2</div>
+    <div class="blog-card">ブログ記事 3</div>
+  </section>
 
-          <div class="top-main-visual__gradient"></div>
-        </div>
+  <section class="news-section">
+    <h2>新着情報</h2>
+    <ul>
+      <li>6月12日 活動内容を更新しました。</li>
+      <li>6月10日 ブログ記事を投稿しました。</li>
+      <li>6月5日 メンバー情報を追加しました。</li>
+    </ul>
+  </section>
 
-        <section class="top-section top-section-articles" id="anchor-01"></section>
-        <section class="top-section top-section-news bg-white" id="anchor-03"></section>
-        <section class="top-section top-section-guide bg-white"></section>
+  <section class="about-team">
+    <h2>チームの紹介</h2>
+    <p>私たちは〇〇を目的としたチームです。</p>
+  </section>
 
-        <aside class="top-banner-tail"></aside>
-      </div> <!-- /l-main -->
-    </div> <!-- /l-wrapper -->
-  </main>
+  <section class="sns-links">
+    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+  </section>
 
-  <!-- footer -->
-  <aside role="complementary" class="footer-aside"></aside>
-  <footer class="footer js-footer" role="contentinfo"></footer>
-
-  <!-- User Insight PCDF Code Start -->
-  <script type="text/javascript">
-    // kantei.go.jp
-  </script>
-  <!-- User Insight PCDF Code End -->
-
-  <svg style="display:none;"></svg>
-
-  <iframe scrolling="no" frameborder="0" allowtransparency="true"
-    src="https://platform.twitter.com/widgets/widget_iframe.2f07fb1.html?origin=https%3A%2F%2Fwww.kantei.go.jp"
-    title="Twitter settings iframe" style="display:none;"></iframe>
-
-  <div class="module-modal js-modal js-modal--close" id="modal-x-account" role="dialog" aria-modal="true" aria-hidden="true" tabindex="-1">
-  </div>
-
-  <iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"
-    style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;"
-    title="Twitter analytics iframe"></iframe>
+  <footer>
+    <p>チーム名 | 〒123-4567 兵庫県〇〇市〇〇町1-2-3</p>
+  </footer>
 </body>
 </html>
+
