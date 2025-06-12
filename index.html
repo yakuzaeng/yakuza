@@ -46,7 +46,7 @@
   <section class="news-section">
     <h2>最新の情報</h2>
     <ul>
-      <li> 令和７年６月10日：ローソン 西宮愛宕山店の駐車場において事故発生。</li>
+      <li>令和７年６月10日：ローソン 西宮愛宕山店の駐車場において事故発生。</li>
       <li>June 10: Posted new blog article.</li>
       <li>June 5: Added new member info.</li>
     </ul>
@@ -54,7 +54,7 @@
 
   <section class="about-team">
     <h2>我々について</h2>
-    <p>後に記述。.</p>
+    <p>後に記述。</p>
   </section>
 
   <section class="sns-links">
@@ -66,5 +66,16 @@
   <footer>
     <p>乾酪興業｜123-4567 兵庫県</p>
   </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const menuBtn = document.querySelector(".menu-button");
+      const navCenter = document.querySelector(".nav-center");
+
+      menuBtn.addEventListener("click", () => {
+        navCenter.classList.toggle("active");
+      });
+    });
+  </script>
 </body>
 </html>
