@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>LP（ランディングページ）向け 無料ホームページテンプレート tp_LP1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ここにサイト説明を入れます">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div id="container">
+
+
+
+<!--▼▼▼▼▼ここから「ヘッダー」-->
+<header>
+
+<h1 id="logo"><a href="index.html"><img src="images/logo.svg" alt="サイト名"></a></h1>
+
+<nav>
+<ul>
+<li><a href="#kodawari">私たちのこだわり</a></li>
+<li><a href="#brand">商品ブランド</a>
+	<ul>
+	<li><a href="#">ブランド別メニュー</a></li>
+	<li><a href="#">ブランド別メニュー</a></li>
+	<li><a href="#">ブランド別メニュー</a></li>
+	</ul>
+</li>
+<li><a href="#koe">お客様の声</a></li>
+<li><a href="#faq">よく頂く質問</a></li>
+</ul>
+</nav>
+
+</header>
+<!--▲▲▲▲▲ここまで「ヘッダー」-->
+
+
+
+<main>
+
+
+
+<!--▼▼▼▼▼ここから「お問い合わせフォーム」-->
+<section>
+
+<form>
+
+<h2 class="c"><span class="main-text">確認画面</span><span class="sub-text">Contact</span></h2>
+
+<!-- フォームの情報はここからです -->
+<form name="form1" enctype="multipart/form-data" method="post" action="<?php echo $_SERVER["REQUEST_URI"];?>">
+<input type="hidden" name="mode" value="confirm">
+<table class="ta1">
+<!--<tr><td colspan="2" class="auto"><strong>確認画面</strong></td></tr>-->
+<!-- 入力／確認 -->
+<!--<tr><th class="tamidashi" colspan="2">お問い合わせフォーム</th></tr>-->
+<tr>
+<th width="150">お名前</th>
+<td>
+<input type="hidden" name="item1" value="<?php echo $form["item1"];?>">
+<?php echo $form["item1"];?>
+</td>
+</tr>
+<tr>
+<th width="150">メールアドレス</th>
+<td>
+<input type="hidden" name="item2" value="<?php echo $form["item2"];?>">
+<?php echo $form["item2"];?>
+</td>
+</tr>
+<tr>
+<th>お問い合わせ内容</th>
+<td>
+<input type="hidden" name="item3" value="<?php echo $form["item3"]; ?>">
+<?php echo nl2br($form["item3"]);?>
+</td>
+</tr>
+</table>
+
+<p class="c">
+<input type="submit" value="送信する">
+&nbsp;
+<input type="button" value="戻る" onClick="document.form1.mode.value='reinput';document.form1.submit()">
+</p>
+
+</form>
+<!-- フォームの情報はここまでです -->
+
+</section>
+<!--▲▲▲▲▲ここまで「お問い合わせフォーム」-->
+
+
+
+</main>
+
+
+
+<!--▼▼▼▼▼ここから「フッター」-->
+<footer>
+
+<div class="text">
+
+<div>
+<h4>Company</h4>
+<p>東京都新宿区歌舞伎町三宮神社ビル3F<br>
+電話番号  03-0000-0000<br>
+営業時間  11:00〜19:00<br>
+定休日 水曜日</p>
+</div>
+
+<div>
+<h4>Follow Us</h4>
+<ul class="icons">
+<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+<li><a href="#"><i class="fab fa-line"></i></a></li>
+<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+</ul>
+</div>
+
+</div>
+
+<div class="image">
+<p class="logo"><img src="images/logo_kazari.svg" alt=""></p>
+<small>&copy; sitename</small>
+</div>
+
+</footer>
+<!--▲▲▲▲▲ここまで「フッター」-->
+
+
+
+<!--テンプレートの著作。削除しないで下さい。-->
+<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+
+
+
+</div>
+<!--/#container-->
+
+
+
+<!--開閉ボタン（ハンバーガーアイコン）-->
+<div id="menubar_hdr">
+<div class="menu-icon">
+<span></span><span></span>
+</div>
+</div>
+
+
+
+<!--開閉ブロック-->
+<div id="menubar">
+
+<nav>
+<ul>
+<li><a href="#kodawari">私たちのこだわり</a></li>
+<li><a href="#brand">商品ブランド</a>
+	<ul>
+	<li><a href="#">ブランド別メニュー</a></li>
+	<li><a href="#">ブランド別メニュー</a></li>
+	<li><a href="#">ブランド別メニュー</a></li>
+	</ul>
+</li>
+<li><a href="#koe">お客様の声</a></li>
+<li><a href="#faq">よく頂く質問</a></li>
+<li><a href="contact.html">お問い合わせ</a></li>
+<li><a href="#">見学会のご案内</a></li>
+</ul>
+</nav>
+
+<p>ここのブロックは、htmlの下の方にある&lt;div id=&quot;menubar&quot;&gt;で編集できます。<br>
+ヘッダーのメニューとは別のブロックになるので注意して下さい。</p>
+
+</div>
+<!--/#menubar-->
+
+
+
+<!--jQueryの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--パララックス（inview）-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+<script src="js/jquery.inview_set.js"></script>
+
+<!--このテンプレート専用のスクリプト-->
+<script src="js/main.js"></script>
+
+</body>
+</html>
