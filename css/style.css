@@ -1350,6 +1350,31 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
 	.ws {width: 48%;display: inline;}
 	.sh {display: none;}
 	.pc {display: block;}
+	
+	/* --------------------------
+   横サムネイルスライドショーの表示改善
+-------------------------- */
+.slide-thumbnail-box {
+	padding: 40px 0;
+	background: #f8f8f8;
+}
+
+.slide-thumbnail1 {
+	margin-bottom: 20px;
+	overflow-x: auto;
+}
+
+.slide-thumbnail1 .img {
+	display: flex;
+	gap: 16px;
+	height: 120px; /* 明示的に高さを指定 */
+}
+
+.slide-thumbnail1 .img img {
+	height: 100%;
+	object-fit: cover;
+	border-radius: 4px;
+}
 
 	}/*追加指定ここまで*/
 
