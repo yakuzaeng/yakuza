@@ -959,12 +959,12 @@ footer h4 {
 
 /*２枚目の写真*/
 .list1.image2 {
-	background: url("../images/2.jpg") no-repeat center center / cover;
+	background: url("https://i.imgur.com/CrFdaaE.jpeg") no-repeat center center / cover;
 }
 
 /*３枚目の写真*/
 .list1.image3 {
-	background: url("../images/3.jpg") no-repeat center center / cover;
+	background: url("https://i.imgur.com/HL04oHN.jpeg") no-repeat center center / cover;
 }
 
 /*４枚目の写真*/
